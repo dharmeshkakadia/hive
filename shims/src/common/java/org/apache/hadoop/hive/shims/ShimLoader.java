@@ -44,6 +44,7 @@ public abstract class ShimLoader {
     HADOOP_SHIM_CLASSES.put("0.20", "org.apache.hadoop.hive.shims.Hadoop20Shims");
     HADOOP_SHIM_CLASSES.put("0.20S", "org.apache.hadoop.hive.shims.Hadoop20SShims");
     HADOOP_SHIM_CLASSES.put("0.23", "org.apache.hadoop.hive.shims.Hadoop23Shims");
+    HADOOP_SHIM_CLASSES.put("3.0.0-SNAPSHOT", "org.apache.hadoop.hive.shims.Hadoop23Shims");
   }
 
   /**
